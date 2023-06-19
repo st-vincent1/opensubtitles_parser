@@ -19,7 +19,7 @@ To extract context files, you must obtain an API key from OMDb by subscribing to
 
 Once files are downloaded, run
 ```bash
-bash src/extract_bitext.py --language [de/fr/pl/ru] --split_set [train/dev/test] --apikey [OMDb API Key]
+python src/extract_bitext.py --language [de/fr/pl/ru] --split_set [train/dev/test] --apikey [OMDb API Key]
 ```
 
 The relevant files will be saved under `data/en-[de/fr/pl/ru]`. Context files will be saved under `data/en-[de/fr/pl/ru]/context`.

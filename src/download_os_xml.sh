@@ -25,7 +25,7 @@ for TGT in "${TGTS[@]}"; do
       if [ ! -f $raw/xml/$lang.zip ]; then
         wget "http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/xml/$lang.zip" -O $raw/xml/$lang.zip
       fi
-      unzip $raw/xml/$lang.zip -d $raw && rm $raw/xml/$lang.zip
+      unzip -n $raw/xml/$lang.zip -d $raw && rm $raw/xml/$lang.zip
     fi
   done
 

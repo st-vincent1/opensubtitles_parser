@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-fa755615&
+
 from argparse import ArgumentParser
 from preprocess_opensubs import SententialPreprocessor, REMOVE_TOKEN
 
